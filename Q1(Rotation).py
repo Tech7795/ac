@@ -32,8 +32,7 @@ matrix = [
 ]
 
 m1=matrix
-print("Enter the degress:")
-c1=int(input())
+c1=int(input("Enter the degress:"))
 n =int(c1/90)
 while n!=0:
    m1= rotate_90_clockwise(m1)
